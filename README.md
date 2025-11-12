@@ -99,35 +99,37 @@ socketio-chat/
 ```bash
 git clone https://github.com/your-username/realtime-chat-app.git
 cd realtime-chat-app
+```
 
-2. Backend Setup
+### 2. Backend Setup
 ```bash
 cd server
 npm install
+```
 
-
-3. Create .env file in the server folder:
+### 3. Create .env file in the server folder:
 
 ```env
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/chatApp
 CLIENT_URL=http://localhost:5173
+```
 
-4. Start the Server:
+### 4. Start the Server:
 
 ```bash
 npm start
-
-5. Frontend Setup
+```
+### 5. Frontend Setup
 
 ```bash
 cd client
 npm install
 npm run dev
-
-
-The frontend will run at ```http://localhost:5173
 ```
+
+
+The frontend will run at http://localhost:5173
 
 ### 🖼️ Screenshot Example
 
